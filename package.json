@@ -1,0 +1,24 @@
+{
+  "name": "wrapidb",
+  "version": "1.0.0",
+  "description": "IndexedDB API interface",
+  "author": [
+    {
+      "name": "João Torres",
+      "email": "torres.dev@disroot.org",
+      "url": "https://github.com/torres-developer"
+    }
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "prepublish": "yarn; tsc",
+  "scripts": {
+    "build": "yarn; tsc"
+  },
+  "license": "",
+  "type": "module",
+  "devDependencies": {
+    "@tsconfig/strictest": "^1.0.2",
+    "typescript": "^4.9.4"
+  }
+}
